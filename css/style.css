@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body{
+  width:960px;
+}
+
+#myIntrest {
+	background-image: url(image/up.png);
+	width:500px;
+	height:140px
+}
