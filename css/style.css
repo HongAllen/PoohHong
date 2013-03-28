@@ -22,7 +22,10 @@ background: url(../image/backgroundwood.png) repeat-y;
 background-position: left;
 z-index:2;
 }
-  
+
+.formBody{
+height:1150px;
+}
 header{
 height:265px;
 background: url(../image/headee.png) repeat-x;	
@@ -40,6 +43,18 @@ footer {
 	font-family: Candara;
 	text-align: center;
 	padding-top:255px;;
+}
+
+.labelTitle{
+	font-size:1.1em;
+	line-height: 200%;
+}
+.labelBigTitle{
+	font-size:2em;
+	line-height: 300%;
+}
+form{
+	font-family: Candara;
 }
 
 /*====我自訂的各個子區塊====*/
@@ -70,7 +85,7 @@ footer {
 }
 
 .myProfile{
-	height: 700px;
+	height: 650px;
 	width: 212px;
 	margin-top: 30px;
 	margin-left: 30px;
@@ -93,6 +108,9 @@ footer {
 	font-size: 0.9em;
 	line-height: 200%;
 	padding-left:20px;
+	font-family: Candara;
+
+
 }
 
 
@@ -124,14 +142,16 @@ footer {
 	margin-left: 60px;
 	margin-right: 60px;
 	line-height: 150%;
+	font-family: Candara;
 }
 
 .myIntrest dt{	
     font-size:2em;	
+	font-weight: bold;
 }
 
-.myIntrest dd{	
-    font-size:0.9em;	
+.myIntrest dd{
+	font-size: 0.9em;
 }
 
 .myIntrest ul{
@@ -211,4 +231,27 @@ footer {
 	background-color:yellow;
 	text-align:center;
 	border: 3px solid #999;
+}
+
+.block-Form{
+    width: 300px;
+	height: 500px;
+	margin-left: 400px;
+	z-index: 20;
+	left: 82px;
+	top: 210px;
+}
+
+.block-Form{
+	width: 300px;
+	height: 500px;
+	margin-left: 400px;
+	z-index: 20;
+	left: 82px;
+	top: 300px;
+	position: absolute;
+}
+/*設定*/
+.bold{
+font-weight: bold;
 }
