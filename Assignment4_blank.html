@@ -48,12 +48,13 @@
     var uid = response.authResponse.userID;
     var accessToken = response.authResponse.accessToken;
     listFriends();
-  } else if (response.status === 'not_authorized') {
+	
+  } else if (response.stattus === 'not_authorized') {
  alert("沒有登入!!!!!");
-window.location = defaultPath;   
+window.location = "http://hongallen.github.io/PoohHong/Assignment4_blank.html";   
   } else {
    alert("沒有授權!!!!!");
-window.location = defaultPath;
+window.location = "http://hongallen.github.io/PoohHong/Assignment4_blank.html";
   }
  });
 				/*
@@ -164,7 +165,7 @@ window.location = defaultPath;
 				</ul>
 			</div>
 			<div id="infoDiv">
-				<span>姓名：</span><span id="name"></span><br/>
+				<span>姓名：</span><span id="name"></namespan><br/>
 				<span>性別：</span><span id="gender"></span><br/>
 				<span>生日：</span><span id="birth"></span><br/>
 				<span>住處：</span><span id="loca"></span><br/>
